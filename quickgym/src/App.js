@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Login from './Components/Login.jsx';
+import Menu from './Components/Menu';
 function App() {
   return (
     <div>
 
-      hi this is manas and i have a really cool web dev team
+    <Menu/>
       
     </div>
   );
