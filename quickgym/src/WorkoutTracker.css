@@ -1,0 +1,76 @@
+.orange-bg {
+    background-color: #BC6C25;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .white-bg {
+    background-color: #FEFAE0;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  
+  .buttonClass {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    width: 180px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    background: #ADC268;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background 0.3s;
+  }
+  
+  
+  .buttonClass:hover {
+    background: #6d7a41;
+  }
+  
+  
+  .dropdownClass {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    width: 180px;
+    height: 40px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    color: #333;
+    background-color: #FEFAE0;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  
+  .dropdownClass:focus {
+    outline: none;
+  }
+  
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .length {
+    max-width: 600px;
+  }
+  
